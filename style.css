@@ -1,0 +1,47 @@
+body {
+	width: 80%;
+	align-content: center;
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+header div h1{
+	display: inline-flex;
+	margin-left: 20px;
+}
+
+header div img{
+	float: left;
+}
+
+header nav ul {
+	list-style: none;
+	display: inline-flex;
+	margin: 20px 0px;
+	padding: 0px;
+}
+
+header nav ul li{
+	padding: 0px 10px;
+}
+
+header nav ul li a {
+	color: white;
+	background-color: #37003c;
+	padding: 10px;
+	font-weight: 500;
+}
+
+main article ol {
+	padding: 0px;
+}
+
+main article ol li {
+	list-style-position: inside;
+	font-weight: 500;
+	padding: 20px 0;
+}
+
+main article ol li img{
+	height: 150px;
+}
